@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+/* HEADER - Aca comienza el Header */
+
+/* Color de fondo */
+.navbar{
+    background-color: rgba(207, 20, 20, 0.867);    
+}
+
+.titulo{
+    font-size: 40px !important;
+}
+
+/* Links de navegacion */
+
+.pest{
+    font-size: 25px !important;
+}
+
+/* Logo  */
+
+.navbar img{
+    height: 50px;
+}
+
