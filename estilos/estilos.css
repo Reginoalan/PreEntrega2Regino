@@ -30,3 +30,14 @@
     height: 50px;
 }
 
+/* INICIO DEL MAIN */
+
+.espacioHome{
+    padding: 40px !important;
+}
+
+main div.fondoHome{
+    background-image: url() !important;
+}
+
+
