@@ -20,8 +20,9 @@
 
 /* Links de navegacion */
 
-.pest{
+.pestHeader{
     font-size: 25px !important;
+
 }
 
 /* Logo  */
@@ -30,7 +31,7 @@
     height: 50px;
 }
 
-/* INICIO DEL MAIN */
+/* INICIO DEL MAIN HOME*/
 
 .espacioHome{
     padding: 40px !important;
@@ -56,7 +57,7 @@ main.fondoHome{
     font-size: 20px;
 }
 
-
+/* FIN DEL MAIN HOME */
 
 /* INICIO DEL FOOTER */
 
@@ -64,3 +65,9 @@ main.fondoHome{
     padding-top: 30px;
     padding-bottom: 50px;
 }
+
+.pListFooter{
+    padding-bottom: 8px;
+}
+
+/* FIN DEL FOOTER */
