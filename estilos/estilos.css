@@ -36,8 +36,15 @@
     padding: 40px !important;
 }
 
-main div.fondoHome{
-    background-image: url() !important;
+main.fondoHome{
+    background-image: url(../img/fondo_saludo.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.textoHome{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
 }
 
 
