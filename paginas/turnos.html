@@ -41,26 +41,58 @@
     </nav>
     <main>
         <h2 class="text-center my-4 ">Para solicitar un turno por favor complete los siguientes datos:</h2>
-        <form class="container" action="">
-            <div>
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
-                </div>
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
-                </div>
-                <div class="mb-3">
-                    <input type="number" class="form-control" id="exampleFormControlInput1"
-                        placeholder="Teléfono de contacto">
-                </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mail">
-                </div>
+        <form class="container bg-danger bg-gradient mb-4 " action="">
+
+            <div class="mb-3 pt-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" required>
             </div>
             <div class="mb-3">
-
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido" required>
             </div>
+            <div class="mb-3">
+                <input type="number" class="form-control" id="exampleFormControlInput1"
+                    placeholder="Teléfono de contacto" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mail">
+            </div>
+            <div class="row">
+                <div class="col-md-1 mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label text-white">Motivo: </label>
+                </div>
+                <div class="col-md-auto mb-3">
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example" required>
+                        <option selected>...</option>
+                        <option value="1">Carburación</option>
+                        <option value="2">Inyección</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-check form-check-inline mb-3">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1">
+                <label class="form-check-label text-white" for="inlineRadio1">Nafta</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                <label class="form-check-label text-white" for="inlineRadio2">Diesel</label>
+            </div>
+            <div class="row mb-3 ">
+                <div class="col-md-2">
+                    <label for="" class="form-label text-white">Seleccione una fecha: </label>
+                </div>
+                <div class="col-md-5">
+                    <input type="date" class="date">
+                </div>
+            </div>
+            <div class="mb-3 ">
+                <label for="" class="form-label text-white">Observaciones:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Escribe tu comentario"></textarea>
+            </div>
+            <div class="col-12 pb-3">
+                <button class="btn btn-warning" type="submit">Enviar</button>
             </div>
         </form>
     </main>
