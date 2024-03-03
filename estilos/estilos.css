@@ -65,6 +65,16 @@
 
 /* MAIN DEL NOSOTROS */
 
+.fotoTaller{
+    background-image: url(../img/imagen_trabajo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px; 
+}
+
+.paddingNosotros{
+    padding: 20px;
+}
 
 /* FIN DEL MAIN DE NOSOTROS */
 
