@@ -40,6 +40,7 @@
         </div>
     </nav>
     <main>
+        <section>
         <h2 class="text-center my-4 ">Para solicitar un turno por favor complete los siguientes datos:</h2>
         <form class="container bg-danger bg-gradient mb-4 " action="">
 
@@ -65,8 +66,12 @@
                         <option selected>...</option>
                         <option value="1">Carburación</option>
                         <option value="2">Inyección</option>
+                        <option value="3">Encendido</option>
                     </select>
                 </div>
+            </div>
+            <div class="mb-3 pt-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Modelo" required>
             </div>
             <div class="form-check form-check-inline mb-3">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
@@ -95,6 +100,7 @@
                 <button class="btn btn-warning" type="submit">Enviar</button>
             </div>
         </form>
+    </section>
     </main>
     <footer class="bg-dark bg-opacity-25 pFooter">
         <div class="container">
